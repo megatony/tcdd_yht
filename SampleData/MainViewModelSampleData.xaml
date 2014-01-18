@@ -1,0 +1,17 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:DataBoundApp1.ViewModels"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.Items>
+        <vm:ItemViewModel ID="0" LineOne="Eskişehir-Ankara" LineTwo="YHT Sefer Saatleri" LineThree="Maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur"/>
+        <vm:ItemViewModel ID="1" LineOne="Ankara-Eskişehir" LineTwo="YHT Sefer Saatleri" LineThree="Pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent"/>
+        <vm:ItemViewModel ID="2" LineOne="Eskişehir-Konya" LineTwo="YHT Sefer Saatleri" LineThree="Accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat"/>
+        <vm:ItemViewModel ID="3" LineOne="Konya-Eskişehir" LineTwo="YHT Sefer Saatleri" LineThree="Pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum"/>
+        <vm:ItemViewModel ID="4" LineOne="Ankara-Konya" LineTwo="YHT Sefer Saatleri" LineThree="Dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis"/>
+        <vm:ItemViewModel ID="5" LineOne="Ankara-Eskişehir" LineTwo="YHT Sefer Saatleri" LineThree="Senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend"/>
+
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>
